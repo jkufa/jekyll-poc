@@ -1,0 +1,13 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+title: "My test blog (no theme)" # the name of your site, e.g. ACME Corp.
+description: >- # this means to ignore newlines until "baseurl:"
+  This took me an hour and a half to set up. I'm not sure if I'm happy or sad about that.
+email: jack@kufa.io
+github_username: jkufa
+
+# Build settings
+# theme: minima
+# plugins:
+  # - jekyll-feed
