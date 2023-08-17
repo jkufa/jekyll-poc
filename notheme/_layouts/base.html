@@ -6,11 +6,9 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
+  {% include header.html %}
   <body>
     {{ content }}
   </body>
-  <footer>
-    {{ site.description }}
-    {{ site.email }}
-  </footer>
+  {% include footer.html %}
 </html>

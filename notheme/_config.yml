@@ -7,6 +7,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 email: jack@kufa.io
 github_username: jkufa
 
+collections:
+  assignments:
+    output: true
+
+
 # Build settings
 # theme: minima
 # plugins:

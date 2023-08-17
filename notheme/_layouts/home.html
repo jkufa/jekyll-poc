@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+{{ content }}
+
+<ul>
+  {% for assignment in site.assignments %}
+    <li>
+      <a href="{{ assignment.url }}">{{ assignment.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
